@@ -11,7 +11,7 @@ class UNOGame:
     def __init__(self, root):
         self.root = root
         self.root.title("UNO Game")
-        self.root.geometry("900x700")
+        self.root.geometry("1920x1800")
         self.root.configure(bg="#2E8B57")
         self.root.resizable(True, True)
         
